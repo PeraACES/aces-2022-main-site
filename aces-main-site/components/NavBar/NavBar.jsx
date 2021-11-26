@@ -45,7 +45,7 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <a
-                  to="/latest"
+                  href="/latest"
                   className={
                     this.props.page_no == 2
                       ? "nav-links current-page"
@@ -58,7 +58,7 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <a
-                  to="/blog"
+                  href="/blog"
                   className={
                     this.props.page_no == 3
                       ? "nav-links current-page"
@@ -71,7 +71,7 @@ class NavBar extends Component {
               </li>
               <li className="nav-item">
                 <a
-                  to="/teams"
+                  href="/teams"
                   className={
                     this.props.page_no == 4
                       ? "nav-links current-page"
