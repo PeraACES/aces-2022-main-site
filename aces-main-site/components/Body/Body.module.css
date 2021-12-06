@@ -1,0 +1,45 @@
+.container{
+    background-color: white;
+    align-items: center;
+    padding: 5em;
+    width: 100%;
+    align-self: center;
+}
+@media screen and (max-width: 960px) {
+    .container{
+        padding: 1em;   
+    }
+}
+
+.head {
+    color: white;
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.subHead{
+    font-family:monospace;
+}
+.promoItem{
+    padding: 30px 15px;
+    text-align: center;
+    -webkit-box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    box-shadow: 0px 50px 100px 0px rgba(64, 1, 4, 0.1), 0px -6px 0px 0px rgba(248, 99, 107, 0.004);
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    min-height: 420px;
+    background-image: url('../../img/left-design.png');
+    background-repeat: no-repeat;
+}
+.promoItem:hover{
+    transform: translateY(-5px);
+    transition: all .3s ease-in-out;
+}
+.paraText{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
