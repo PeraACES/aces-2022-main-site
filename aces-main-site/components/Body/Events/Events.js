@@ -9,8 +9,9 @@ class Events extends Component {
                 <div className="row mx-3 my-3 text-white">
                     <div className="col-12 col-md-4 bg-primary text-center p-2">
                         <div className={styles.promoItem}>
+                                <div className={styles.subHeadContainer}>
                                 <h3 className={styles.subHead}>Coders</h3>
-
+                                </div>
                                 <p>ACES Coders is a twelve hours coding competition which
                                     presents
                                     multiple problems to be solved using programming and mathematical knowledge. A number of
@@ -26,8 +27,9 @@ class Events extends Component {
                     </div>
                     <div className="col-12 col-md-4 bg-info text-center p-2">
                     <div className={styles.promoItem}>
+                            <div className={styles.subHeadContainer}>
                             <h3 className={styles.subHead}>Hackathon</h3>
-
+                            </div>
                             <p>Aces Hackathon is one of the signature events that is
                                 organised
                                 annually by the Association of Computer Engineering Students. This event provides a
@@ -46,8 +48,9 @@ class Events extends Component {
                     </div>
                     <div className="col-12 col-md-4 bg-primary text-center p-2">
                     <div className={styles.promoItem}>
+                            <div className={styles.subHeadContainer}>
                             <h3 className={styles.subHead}>Spark</h3>
-
+                            </div>
                             <p>Inter School Quiz Competition is organized to provide
                                 experience
                                 and knowledge to the school community on computer engineering aspects. From 2015 it is

@@ -5,11 +5,7 @@
     width: 100%;
     align-self: center;
 }
-@media screen and (max-width: 960px) {
-    .container{
-        padding: 1em;   
-    }
-}
+
 
 .head {
     color: white;
@@ -17,6 +13,18 @@
     text-align: center;
     padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.subHeadContainer{
+	border: 2px solid;
+    border-color: white;
+    position: relative;
+    top:0%;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 .subHead{
     font-family:monospace;
@@ -30,7 +38,7 @@
     transition: all .3s ease-in-out;
     position: relative;
     overflow: hidden;
-    min-height: 420px;
+    min-height: 460px;
     background-image: url('../../img/left-design.png');
     background-repeat: no-repeat;
 }
@@ -42,4 +50,16 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+@media screen and (max-width: 960px) {
+    .container{
+        padding: 1em;   
+    }
+    .head {
+	    border-bottom-right-radius: 15px;
+	    border-bottom-left-radius: 15px;
+	    border-top-right-radius: 15px;
+	    border-top-left-radius: 15px;
+	}
 }
