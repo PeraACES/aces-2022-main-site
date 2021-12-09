@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import styles from './NavBar.module.css';
+
+
 
 
 class NavBar extends Component {
@@ -24,12 +27,18 @@ class NavBar extends Component {
               <img src="./img/logo.png" alt=""/>
             </a>
             <div className="menu-icon" onClick={this.handleMenu}>
+              <label for="" className="menu-btn">
+
               <i
                 className={this.state.click ? "fas fa-bars" : "fas fa-times"}
               >
               </i>
+
+              </label>
             </div>
             <ul className={!this.state.click ? "nav-menu active" : "nav-menu"}>
+
+
               <li className="nav-item">
                 <a
                   to="/"
@@ -43,6 +52,8 @@ class NavBar extends Component {
                   HOME
                 </a>
               </li>
+
+
               <li className="nav-item">
                 <a
                   href="/latest"
@@ -56,6 +67,8 @@ class NavBar extends Component {
                   LATEST
                 </a>
               </li>
+
+
               <li className="nav-item">
                 <a
                   href="/blog"
@@ -69,6 +82,9 @@ class NavBar extends Component {
                   BLOG
                 </a>
               </li>
+
+
+
               <li className="nav-item">
                 <a
                   href="/teams"
@@ -82,6 +98,9 @@ class NavBar extends Component {
                   TEAMS
                 </a>
               </li>
+
+
+
             </ul>
           </div>
         </nav>
