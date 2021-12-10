@@ -31,7 +31,22 @@
     margin-right: 2em;
 }
 
+.linesRight{
+    position: relative;
+    height: 2px;
+    background-color: black;
+    width: 30%;
+    top:50%
 
+}
+.linesLeft{
+    position: relative;
+    height: 2px;
+    background-color: black;
+    width: 30%;
+    top:50%;
+    float: right;
+}
 
 .socila_media{
     margin-left: 3em;
