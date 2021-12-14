@@ -2,9 +2,21 @@ import Footer from '../components/footer/Footer'
 import NavBar from '../components/NavBar/NavBar'
 import Body from '../components/Body/Body'
 import styles from '../styles/Home.module.css'
+import React from 'react'
 
 export default function Home() {
-    return ( < div className = { styles.container } >
+    
+    React.useEffect(() => {
+        var loader = document.getElementById('preloader');
+        window.addEventListener('load',function(){
+            loader.style.display="none"
+            
+        })
+    },[])
+    return ( <div className = { styles.container } >
+        <div id="preloader">
+            <p>Loading...</p>
+        </div>
         <NavBar page_no = "1" />
         <div className = "main-container" >
         <video src = "./video/Doctors.mp4"
@@ -18,4 +30,6 @@ export default function Home() {
         <Footer />
         </div>
     )
+    
+    
 }
