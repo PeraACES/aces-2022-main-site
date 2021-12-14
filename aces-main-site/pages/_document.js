@@ -1,7 +1,12 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import React from 'react'
+
 
 class MyDocument extends Document {
+    
+    
     render() { 
+        
         return (
             <Html>
                 <Head>
@@ -9,12 +14,16 @@ class MyDocument extends Document {
                 integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"/>
                 </Head>
                 <body>
+                    
                     <Main/>
                     <NextScript/>
+                    
+                                    
                 </body>
             </Html>
         );
     }
+    
 }
  
 export default MyDocument;
