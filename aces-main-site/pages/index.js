@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar/NavBar'
 import Body from '../components/Body/Body'
 import styles from '../styles/Home.module.css'
 import React from 'react'
+import Scroll from '../components/Body/Scroll';
 
 export default function Home() {
     
@@ -27,6 +28,7 @@ export default function Home() {
         <p className = "main-subheading" > -University of Peradeniya - </p>  
         </div >  
         <Body />
+        <Scroll />
         <Footer />
         </div>
     )
