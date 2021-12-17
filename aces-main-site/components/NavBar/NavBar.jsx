@@ -35,6 +35,9 @@ class NavBar extends Component {
               </i>
 
               </label>
+              
+
+
             </div>
             <ul className={!this.state.click ? "nav-menu active" : "nav-menu"}>
 
@@ -98,11 +101,27 @@ class NavBar extends Component {
                   TEAMS
                 </a>
               </li>
+              
+
+             
 
 
 
             </ul>
+            <li >
+                <a
+                  href="https://projects.ce.pdn.ac.lk/"
+                  className="button"
+                  onClick={() => this.closeMenu(4)}
+                >
+                  PROJECTS
+                </a>
+              </li>
+          
           </div>
+
+          
+
         </nav>
       </>
     );

@@ -10,7 +10,7 @@ export default function Home() {
        <Head>
         <title>Aces</title>
         <meta name="description" content="aces" />
-        <link rel="icon" href="/img/logo.png" />
+        <link rel="icon" href="/img/logo_1.png" />
         
       </Head>
 
