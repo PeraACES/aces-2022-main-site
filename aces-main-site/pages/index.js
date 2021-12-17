@@ -2,6 +2,7 @@ import Footer from '../components/footer/Footer'
 import NavBar from '../components/NavBar/NavBar'
 import Body from '../components/Body/Body'
 import styles from '../styles/Home.module.css'
+import Head from 'next/head'
 import React from 'react'
 import Scroll from '../components/Body/Scroll';
 
@@ -15,6 +16,12 @@ export default function Home() {
         })
     },[])
     return ( <div className = { styles.container } >
+        <Head>
+        <title>Aces</title>
+        <meta name="description" content="aces" />
+        <link rel="icon" href="/img/logo_1.png" />
+        
+        </Head>
         <div id="preloader">
             {/* <p>Loading...</p> */}
         </div>
@@ -35,3 +42,4 @@ export default function Home() {
     
     
 }
+
