@@ -15,7 +15,7 @@ export default function Home() {
     },[])
     return ( <div className = { styles.container } >
         <div id="preloader">
-            <p>Loading...</p>
+            {/* <p>Loading...</p> */}
         </div>
         <NavBar page_no = "1" />
         <div className = "main-container" >

@@ -6,6 +6,7 @@ class About extends Component {
         return (
             <div>
                <h4 className={styles.head}>ABOUT</h4>
+               <div className={styles.AboutBg}>
                 <p className={styles.paraText}>
                     The Department of Computer Engineering was first established in the year 1985 
                     in the Faculty of Engineering in University of Peradeniya as the oldest 
@@ -32,6 +33,7 @@ class About extends Component {
                     maximising students’ potential by organizing different activities and events that would 
                     bring out the best within themselves and make them prepared for the next technological revolution.
                 </p>
+                </div>
             </div>
         )
     }
