@@ -4,7 +4,7 @@ import Body from '../components/Body/Body'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import React from 'react'
-import Scroll from '../components/Body/Scroll';
+
 
 export default function Home() {
     
@@ -17,7 +17,7 @@ export default function Home() {
     },[])
     return ( <div className = { styles.container } >
         <Head>
-        <title>Aces</title>
+        <title>ACES</title>
         <meta name="description" content="aces" />
         <link rel="icon" href="/img/logo_1.png" />
         
@@ -25,7 +25,7 @@ export default function Home() {
         <div id="preloader">
             {/* <p>Loading...</p> */}
         </div>
-        <NavBar page_no = "1" />
+        <NavBar page_no = {1} />
         <div className = "main-container" >
         <video src = "./video/Doctors.mp4"
         autoPlay = "true"
@@ -35,7 +35,7 @@ export default function Home() {
         <p className = "main-subheading" > -University of Peradeniya - </p>  
         </div >  
         <Body />
-        <Scroll />
+      
         <Footer />
         </div>
     )
