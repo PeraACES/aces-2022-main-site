@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import styles from './NavBar.module.css';
+
+
+
+
+
 
 
 
@@ -44,7 +48,7 @@ class NavBar extends Component {
 
               <li className="nav-item">
                 <a
-                  to="/"
+                  href="/"
                   className={
                     this.props.page_no == 1
                       ? "nav-links current-page"
@@ -101,14 +105,13 @@ class NavBar extends Component {
                   TEAMS
                 </a>
               </li>
+
               
 
-             
+              
 
 
-
-            </ul>
-            <li >
+              <li className="nav-item">
                 <a
                   href="https://projects.ce.pdn.ac.lk/"
                   className="button"
@@ -117,6 +120,18 @@ class NavBar extends Component {
                   PROJECTS
                 </a>
               </li>
+            
+              
+
+             
+
+
+
+            </ul>
+
+           
+
+           
           
           </div>
 
