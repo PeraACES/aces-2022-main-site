@@ -180,8 +180,8 @@ class Footer extends Component {
           </div>
           <div className="col-12 col-md-12 col-lg-4 text-center">
           <div className="container" className={`${styles["footer-follow"]}`}>
-              <div className="row">
-                <h4>Follow Us On</h4>
+              <div className="row d-flex justify-center text-center">
+                <h4 className="d-flex text-center w-100">Follow Us On</h4>
               </div>
               <div className="row">
                 <div className="col-4">

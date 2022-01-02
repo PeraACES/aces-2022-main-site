@@ -108,7 +108,7 @@ class NavBar extends Component {
 
 
             </ul>
-            <li >
+            <li className="nav-item">
                 <a
                   href="https://projects.ce.pdn.ac.lk/"
                   className="button"
