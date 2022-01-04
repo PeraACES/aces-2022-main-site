@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../styles/NavBar.css'
+
 import '../styles/animate.min.css'
 import '../styles/bootstrap.min.css'
 import '../styles/fontawesome.min.css'
