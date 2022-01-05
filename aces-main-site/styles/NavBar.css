@@ -1,12 +1,12 @@
 .navbar {
     background:  #00002e;/*linear-gradient(90deg, #00bfff 10%, #4682b4 100%);#1b1b1b;linear-gradient(90deg, rgb(185, 173, 173) 10%, rgb(26, 23, 23) 100%);*/
-    height: 80px;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    position: fixed!important;
     top: 0;
     z-index: 999;
   }
@@ -17,27 +17,33 @@
     color: white;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flexbox;
     font-size: 16px;
     border-radius: 20px;
-    padding: 12px 20px;
+    padding: 12px 10px;
     background: rgba(184, 17, 194, 1.0);
     background: -webkit-linear-gradient(left, rgba(184, 17, 194, 1.0), rgba(19, 204, 233, 1.0));
     background: -moz-linear-gradient(left, rgba(184, 17, 194, 1.0), rgba(19, 204, 233, 1.0));
     background: linear-gradient(to right, rgba(184, 17, 194, 1.0), rgba(19, 204, 233, 1.0));
-    height: 100%;
+    align-items: center;
+  
+  }
+
+  
+  .button:hover{
+    text-decoration: none;
+    color: black;
   }
   
   
   
   .navbar-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items:flex-end;
     height: 80px;
-    max-width: 1500px;
-  
-    
+    max-width: 7000px;
+   
   }
   
   .navbar-logo {
@@ -57,14 +63,14 @@
   }
   
   .nav-menu {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
+    grid-gap: 20px;
     list-style: none;
     text-align: center;
     width: 60vw;
-    justify-content: end;
-    margin-right: 2rem;
+    justify-content: right;
+    margin-right: 1rem;
   }
   
   .nav-item {
@@ -90,13 +96,15 @@
    background: #00d6d6;/*#0fc0fc;/*#1b9bff;*/
    transition: 0.5s;
    color: #1b1b1b;
+   text-decoration: none;
   }
   
   .current-page{
     /*border-bottom: 7px solid #fff;*/
     background: #00d6d6;
     transition: 0.5s;
-    color: #1b1b1b;
+    color: black;
+    background: #00d6d6;
   }
   
   
@@ -129,6 +137,7 @@
       background: -webkit-linear-gradient(left, rgba(184, 17, 194, 1.0), rgba(19, 204, 233, 1.0));
       background: -moz-linear-gradient(left, rgba(184, 17, 194, 1.0), rgba(19, 204, 233, 1.0));
       background: linear-gradient(to right, rgba(184, 17, 194, 1.0), rgba(19, 204, 233, 1.0));
+      
     
     }
   
@@ -160,6 +169,8 @@
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
+      top: 100px;
+      color: #1b9bff;
     }
   
     .nav-item{
@@ -218,6 +229,7 @@
      background: transparent;
       color: #1b9bff;
       transition: 250ms;
+      text-decoration: none;
     }
     
     
