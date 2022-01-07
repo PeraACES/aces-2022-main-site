@@ -85,8 +85,8 @@
     align-items: center;
     text-decoration: none;
     /*padding: 0.5rem 1rem;*/
-    padding: 7px 13px;
-    border-radius: 5px;
+    padding: 16px 16px;
+    border-radius: 50px;
     height: 100%;
     border-color: black;
   }
