@@ -11,7 +11,8 @@ class TeamsPage extends Component {
         <div className={styles.bg}> 
             
             <Navbar page_no = {4}/>
-            <div className="container mt-5 mb-5">
+
+            <div className={`container ${styles.body}`}>
 
                 <h3 className="text-primary text-center">EXECUTIVE COMMITTE 2021/2022</h3>
 
