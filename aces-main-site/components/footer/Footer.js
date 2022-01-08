@@ -82,7 +82,8 @@ class Footer extends Component {
               <div className="row">
                 <div className="col-4">
                   <a
-                    href="https://www.facebook.com/uophackers"
+                    href="https://www.facebook.com/acespera"
+ 		    target="_blank"
                     className={`${styles["follow-fb"]}`}
                   >
                     <i class="fab fa-facebook"></i>
@@ -90,14 +91,16 @@ class Footer extends Component {
                 </div>
                 <div className="col-4">
                   <a
-                    href="https://www.youtube.com/channel/UCdsaElflkOhbX6Rv6r2uH5A/"
+                    href="https://youtube.com/channel/UCwGfYpe8MgLK6JeFCg0YICA"
+ 		    target="_blank"
                     className={`${styles["follow-yt"]}`}
                   >
                     <i class="fab fa-youtube"></i>
                   </a>
                 </div>
                 <div className="col-4">
-                  <a href="#" className={`${styles["follow-li"]}`}>
+                  <a href="https://www.linkedin.com/company/aces-association-of-computer-engineering-students" 
+		   target="_blank" className={`${styles["follow-li"]}`}>
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>
@@ -123,11 +126,13 @@ class Footer extends Component {
       <div className={styles.container}>
         <div className="container text-center pb-0">
         <div className="row my-0">
-          <div className="col-12 col-md-6 col-lg-2">
-            <h4>Useful Links</h4>
+          <div className="col-12 col-md-6 col-lg-3">
             <div className="container" variant="flush" className={`${styles["footer-links"]}`}>
               <div className="row">
-                <Link href="#" target="_blank">
+              <h4>Useful Links</h4>
+              </div>
+              <div className="row">
+                <Link href="#">
                   <a>Gallery</a>
                 </Link>
               </div>
@@ -144,8 +149,10 @@ class Footer extends Component {
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-2">
-            <h4>Events</h4>
             <div className="container" variant="flush" className={`${styles["footer-links"]}`}>
+              <div className="row">
+              <h4>Events</h4>
+              </div>
               <div className="row">
                 <Link href="#">
                   <a>Coders</a>
@@ -164,8 +171,10 @@ class Footer extends Component {
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-4">
-            <h4>Sessions</h4>
             <div className="container" variant="flush" className={`${styles["footer-links"]}`}>
+              <div className="row">
+              <h4>Sessions</h4>
+              </div>
               <div className="row">
                 <Link href="#">
                   <a>Developer Series Sessions</a>
@@ -178,7 +187,7 @@ class Footer extends Component {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-12 col-lg-4 text-center">
+          <div className="col-12 col-md-12 col-lg-3 text-center">
           <div className="container" className={`${styles["footer-follow"]}`}>
               <div className="row d-flex justify-center text-center">
                 <h4 className="d-flex text-center w-100">Follow Us On</h4>
@@ -186,7 +195,8 @@ class Footer extends Component {
               <div className="row">
                 <div className="col-4">
                   <a
-                    href="https://www.facebook.com/uophackers"
+                    href="https://www.facebook.com/acespera"
+ 			target="_blank"
                     className={`${styles["follow-fb"]}`}
                   >
                     <i class="fab fa-facebook"></i>
@@ -194,14 +204,14 @@ class Footer extends Component {
                 </div>
                 <div className="col-4">
                   <a
-                    href="https://www.youtube.com/channel/UCdsaElflkOhbX6Rv6r2uH5A/"
+                    href="https://youtube.com/channel/UCwGfYpe8MgLK6JeFCg0YICA"  target="_blank"
                     className={`${styles["follow-yt"]}`}
                   >
                     <i class="fab fa-youtube"></i>
                   </a>
                 </div>
                 <div className="col-4">
-                  <a href="#" className={`${styles["follow-li"]}`}>
+                  <a href="https://www.linkedin.com/company/aces-association-of-computer-engineering-students"  target="_blank" className={`${styles["follow-li"]}`}>
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </div>
