@@ -21,6 +21,7 @@ video{
   width: 100%;
   position: fixed;
   z-index: -1;
+  
 }
 
 .main-container{
@@ -34,6 +35,8 @@ video{
   background-color: rgba(44, 25, 25, 0.5);
   top: 50%;
   margin-top: 70px;
+
+ 
 }
 
 
