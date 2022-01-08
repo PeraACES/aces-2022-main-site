@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import styles from '../styles/Teams.module.css';
-import Scroll from '../components/Body/Scroll'
+//import Scroll from '../components/Body/Scroll'
 import Navbar from "../components/NavBar/NavBar";
 import Footer from "../components/footer/Footer";
 

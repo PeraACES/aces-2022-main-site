@@ -4,7 +4,7 @@ import Body from '../components/Body/Body'
 import styles from '../styles/Home.module.css'
 import Head from 'next/head'
 import React from 'react'
-import Scroll from '../components/Body/Scroll'
+//import Scroll from '../components/Body/Scroll'
 
 export default function Home() {
     
