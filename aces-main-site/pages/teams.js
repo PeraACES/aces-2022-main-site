@@ -12,13 +12,13 @@ class TeamsPage extends Component {
             
             <Navbar page_no = {4}/>
 
-            <div className={`container ${styles.body}`}>
-
-                <h3 className="text-primary text-center">EXECUTIVE COMMITTE 2021/2022</h3>
+            <div className={`container ${styles.commitee}`}>
 
                 <hr className="bg-primary"></hr>
+                <h3 className="text-primary text-center">EXECUTIVE COMMITTE 2021/2022</h3>
+                <hr className="bg-primary"></hr>
 
-                <div className="row" style={{marginLeft:'2%'}}>
+                <div className="row" style={{marginLeft:'1%'}}>
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
@@ -187,6 +187,246 @@ class TeamsPage extends Component {
                 </div>
 
             </div>
+
+            <div className={`container ${styles.web}`}>
+
+                <hr className="bg-primary"></hr>
+                <h3 className="text-primary text-center">WEB TEAM</h3>
+                <hr className="bg-primary"></hr>
+
+                <div className="row" style={{marginLeft:'1%'}}>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Aminda_Amarasinghe.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Aminda Amarasinghe</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Anuruddha_chandrasekara.PNG"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Anuruddha Chandrasekara</b></small>
+                                </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Chiran_Devinda.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Chiran Devinda</b></small>
+                            </div>
+                        </div>
+
+                        
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Denuwan_Weerarathne.jpeg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Denuwan Weerarathne</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Jeewantha_Udeshika.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Jeewantha Udeshika</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Kavinda_Karunarathna.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Kavinda Karunarathna</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Lahiru_Pathum.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Lahiru Pathum</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Lakshitha_srimal.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Lakshitha Srimal</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/web/Tharindu_Dhananjaya.JPG"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Tharindu Dhananjaya</b></small>
+                            </div>
+                        </div>              
+
+
+                </div>
+
+            </div>
+
+            <div className={`container ${styles.design}`}>
+
+                <hr className="bg-primary"></hr>
+                <h3 className="text-primary text-center">DESIGN TEAM</h3>
+                <hr className="bg-primary"></hr>
+
+                <div className="row" style={{marginLeft:'1%'}}>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Achintha_Sandakalum.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Achintha Sandakalum</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Chamudi_Jayasumana .JPG"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Chamudi Jayasumana</b></small>
+                                </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Kushan_Manahara.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Kushan Manahara</b></small>
+                            </div>
+                        </div>
+
+                        
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Mahela_Ekanayake.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Mahela Ekanayake</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Nethmi_Ranasinghe.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Nethmi Ranasinghe</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Nipun_Dharmarathne.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Nipun Dharmarathne</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Nirasha_Sewwandi.jpeg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Nirasha Sewwandi</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Nishankar_Sathiyamohan.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Nishankar Sathiyamohan</b></small>
+                            </div>
+                        </div>              
+
+
+
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>
+                                <img src="/img/design/Sashini_Liyanage.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Sashini Liyanage</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>    
+                                <img src="/img/design/Sathsarani_Aththanayaka.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Sathsarani Aththanayaka</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>    
+                                <img src="/img/design/Thakshila_Jayathilake.jpg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Thakshila Jayathilake</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>    
+                                <img src="/img/design/Vithurshini_Subramanieam.jpeg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Vithurshini Subramanieam</b></small>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+
 	    {/*<Scroll />*/}
             <Footer />
         </div>);

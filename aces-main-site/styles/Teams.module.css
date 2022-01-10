@@ -2,9 +2,18 @@
   background-color: #F5F5F5;
 }
 
-.body{
+.commitee{
   margin-top: 80px;
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+.web{
+    padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.design{
+    padding-top: 30px;
   padding-bottom: 30px;
 }
 
