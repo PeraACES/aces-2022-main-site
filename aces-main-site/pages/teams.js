@@ -423,6 +423,26 @@ class TeamsPage extends Component {
                                 <b>Vithurshini Subramanieam</b></small>
                             </div>
                         </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>    
+                                <img src="/img/design/Ishara_Nawarathna.png"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Ishara Nawarathna</b></small>
+                            </div>
+                        </div>
+
+                        <div className={`${styles.card}`}>
+                            <div className={styles.card_img}>    
+                                <img src="/img/design/Sandun_Kodagoda.jpeg"></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>
+                                <b>Sandun Kodagoda</b></small>
+                            </div>
+                        </div>
                 </div>
 
             </div>
