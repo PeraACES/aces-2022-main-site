@@ -69,7 +69,7 @@ class NavBar extends Component {
                       ? "nav-links current-page"
                       : "nav-links"
                   }
-                  onClick={() => this.closeMenu(2)}
+                 // onClick={() => this.closeMenu(2) }
                 >
                   LATEST
                 </a>
@@ -84,7 +84,7 @@ class NavBar extends Component {
                       ? "nav-links current-page"
                       : "nav-links"
                   }
-                  onClick={() => this.closeMenu(3)}
+                 // onClick={() => this.closeMenu(3)}
                 >
                   BLOG
                 </a>

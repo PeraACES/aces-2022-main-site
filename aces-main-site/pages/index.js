@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <NavBar page_no = {1} />
         <div className = "main-container" >
-        <video src = "./video/Doctors.mp4"
+        <video src = "./video/video.mp4"
         autoPlay = "true"
         loop = "true"
         muted = "true" />
