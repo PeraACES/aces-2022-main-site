@@ -11,7 +11,7 @@ function Card (props) {
                     
                     <div className={styles.Circle}>
                         
-                        <i class="fas fa-book-open"></i>
+                        <i className="fas fa-book-open"></i>
                         {/* <i class="far fa-bookmark"></i> */}
                         
                     </div>

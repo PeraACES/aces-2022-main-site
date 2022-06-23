@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <>
       <div className="text-center py-3 bg-white">
-        <h4 className="text-primary m-2"><b>LET'S DISCUSS</b></h4>
+        <h4 className="text-primary m-2"><b>LET&apos;S DISCUSS</b></h4>
         <div className="row">
           <div className="col-5 align-center"><div className={styles.linesLeft} ></div></div>
           <div className="col-2 "><i className="fas fa-inbox"></i></div>
@@ -127,7 +127,7 @@ class Footer extends Component {
         <div className="container text-center pb-0">
         <div className="row my-0">
           <div className="col-12 col-md-6 col-lg-3">
-            <div className="container" variant="flush" className={`${styles["footer-links"]}`}>
+            <div variant="flush" className={`${styles["footer-links"]} container`}>
               <div className="row">
               <h4>Useful Links</h4>
               </div>
@@ -143,13 +143,13 @@ class Footer extends Component {
               </div>
               <div className="row">
                 <Link href="https://hackersuop.github.io/" target="_blank">
-                  <a>Hacker's club</a>
+                  <a>Hacker&apos;s club</a>
                 </Link>
               </div>
             </div>
           </div>
           <div className="col-12 col-md-6 col-lg-2">
-            <div className="container" variant="flush" className={`${styles["footer-links"]}`}>
+            <div variant="flush" className={`${styles["footer-links"]} container`}>
               <div className="row">
               <h4>Events</h4>
               </div>
@@ -171,7 +171,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-4">
-            <div className="container" variant="flush" className={`${styles["footer-links"]}`}>
+            <div variant="flush" className={`${styles["footer-links"]} container`}>
               <div className="row">
               <h4>Sessions</h4>
               </div>
@@ -188,7 +188,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-3 text-center">
-          <div className="container" className={`${styles["footer-follow"]}`}>
+          <div className={`${styles["footer-follow"]} container`}>
               <div className="row d-flex justify-center text-center">
                 <h4 className="d-flex text-center w-100">Follow Us On</h4>
               </div>
@@ -196,30 +196,30 @@ class Footer extends Component {
                 <div className="col-4">
                   <a
                     href="https://www.facebook.com/acespera"
- 			target="_blank"
+ 			target="_blank" rel="noreferrer"
                     className={`${styles["follow-fb"]}`}
                   >
-                    <i class="fab fa-facebook"></i>
+                    <i className="fab fa-facebook"></i>
                   </a>
                 </div>
                 <div className="col-4">
                   <a
-                    href="https://youtube.com/channel/UCwGfYpe8MgLK6JeFCg0YICA"  target="_blank"
+                    href="https://youtube.com/channel/UCwGfYpe8MgLK6JeFCg0YICA"  target="_blank" rel="noreferrer"
                     className={`${styles["follow-yt"]}`}
                   >
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                   </a>
                 </div>
                 <div className="col-4">
-                  <a href="https://www.linkedin.com/company/aces-association-of-computer-engineering-students"  target="_blank" className={`${styles["follow-li"]}`}>
-                    <i class="fab fa-linkedin"></i>
+                  <a href="https://www.linkedin.com/company/aces-association-of-computer-engineering-students"  target="_blank"  rel="noreferrer" className={`${styles["follow-li"]}`}>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="row" className={`${styles["footer-logo-sec"]}`}>
+        <div className={`${styles["footer-logo-sec"]} row`}>
           <div className="col-12 mb-0">
             <Image
               src="/img/logo.png"

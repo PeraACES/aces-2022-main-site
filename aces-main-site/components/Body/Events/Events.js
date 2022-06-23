@@ -21,7 +21,7 @@ class Events extends Component {
                                     participants.</p>
                                 <br />
 
-                                <p><a href="https://aces.ce.pdn.ac.lk/aces-coders/" target="_blank" className="text-white" style={{textDecoration: 'none'}}>more <i
+                                <p><a href="https://aces.ce.pdn.ac.lk/aces-coders/" target="_blank" rel="noreferrer" className="text-white" style={{textDecoration: 'none'}}>more <i
                                             className="fas fa-chevron-circle-right fa-sm"></i></a></p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ class Events extends Component {
                                 exposure.</p>
                             <br />
 
-                            <p><a href="https://aces.ce.pdn.ac.lk/aces-hackathon/" target="_blank" className="text-white" style={{textDecoration: 'none'}}>more <i
+                            <p><a href="https://aces.ce.pdn.ac.lk/aces-hackathon/" target="_blank" rel="noreferrer" className="text-white" style={{textDecoration: 'none'}}>more <i
                                         className="fas fa-chevron-circle-right fa-sm"></i></a></p>
                         </div>
                     </div>
@@ -54,11 +54,11 @@ class Events extends Component {
                             <p>Inter School Quiz Competition is organized to provide
                                 experience
                                 and knowledge to the school community on computer engineering aspects. From 2015 it is
-                                named 'Spark', while taking this event to a new level.
+                                named &apos;Spark&apos;, while taking this event to a new level.
                             </p>
                             <br />
                             <p>
-                                <a href="https://aces.ce.pdn.ac.lk/aces-spark/" target="_blank" className="text-white" style={{textDecoration: 'none'}}>
+                                <a href="https://aces.ce.pdn.ac.lk/aces-spark/" target="_blank" rel="noreferrer" className="text-white" style={{textDecoration: 'none'}}>
                                     more <i className="fas fa-chevron-circle-right fa-sm"></i>
                                 </a>
                             </p>

@@ -8,13 +8,14 @@ import React from 'react'
 
 export default function Home() {
     
-    React.useEffect(() => {
+    /*React.useEffect(() => {
         var loader = document.getElementById('preloader');
         window.addEventListener('load',function(){
             loader.style.display="none"
             
         })
-    },[])
+    },[])*/
+
     return ( <div className = { styles.container } >
         <Head>
         <title>ACES</title>
@@ -22,9 +23,9 @@ export default function Home() {
         <link rel="icon" href="/img/logo_1.png" />
         
         </Head>
-        <div id="preloader">
-            {/* <p>Loading...</p> */}
-        </div>
+        {/*<div id="preloader">
+            { <p>Loading...</p>}
+        </div>*/}
         <NavBar page_no = {1} />
         <div className = "main-container" >
         <video src = "./video/video.mp4"
