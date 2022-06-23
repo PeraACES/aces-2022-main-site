@@ -63,13 +63,13 @@ class NavBar extends Component {
 
               <li className="nav-item">
                 <a
-                  href="/latest"
+                  href=""
                   className={
                     this.props.page_no == 2
                       ? "nav-links current-page"
                       : "nav-links"
                   }
-                  onClick={() => this.closeMenu(2)}
+                 // onClick={() => this.closeMenu(2) }
                 >
                   LATEST
                 </a>
@@ -78,13 +78,13 @@ class NavBar extends Component {
 
               <li className="nav-item">
                 <a
-                  href="/blog"
+                  href=""
                   className={
                     this.props.page_no == 3
                       ? "nav-links current-page"
                       : "nav-links"
                   }
-                  onClick={() => this.closeMenu(3)}
+                 // onClick={() => this.closeMenu(3)}
                 >
                   BLOG
                 </a>

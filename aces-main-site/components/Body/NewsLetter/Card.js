@@ -5,7 +5,7 @@ function Card (props) {
     
         return (
             <div className={styles.CardItem}>
-            <a href={props.link} style={{textDecoration: 'none'}}>
+            <b><a href={props.link} style={{textDecoration: 'none',fontSize:'20px'}}>
             <div className='m-2 bg-secondary'>
                 <div className={styles.Card}>
                     
@@ -21,6 +21,7 @@ function Card (props) {
                 </div>
             </div>
             </a>
+            </b>
             </div>
         )
     
