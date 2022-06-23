@@ -4,12 +4,17 @@ import styles from '../styles/Teams.module.css';
 //import Scroll from '../components/Body/Scroll'
 import Navbar from "../components/NavBar/NavBar";
 import Footer from "../components/footer/Footer";
+import Head from 'next/head'
 
 class TeamsPage extends Component {
     render() { 
         return( 
         <div className={styles.bg}> 
-            
+             <Head>
+                <title>ACES</title>
+                <meta name="description" content="aces" />
+                <link rel="icon" href="/img/logo_1.png" />
+            </Head>
             <Navbar page_no = {4}/>
 
             <div className={`container ${styles.commitee}`}>
