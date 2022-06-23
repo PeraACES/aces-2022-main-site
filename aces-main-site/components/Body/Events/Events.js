@@ -7,7 +7,7 @@ class Events extends Component {
             <div>
                 <h4 className={styles.head}>EVENTS</h4>
                 <div className="row mx-2 mx-md-5 my-3 text-white">
-                    <div className="col-12 col-md-4 bg-primary text-center p-2" style={{border: '#eee 3px solid'}}>
+                    <div className="col-12 col-md-4 bg-primary text-center p-2" style={{border: '#eee 3px solid', borderRadius: '2mm'}}>
                         <div className={styles.promoItem}>
                                 <div className={styles.subHeadContainer}>
                                 <h3 className={styles.subHead}>Coders</h3>
@@ -25,7 +25,7 @@ class Events extends Component {
                                             className="fas fa-chevron-circle-right fa-sm"></i></a></p>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 bg-info text-center p-2" style={{border: '#eee 3px solid'}}>
+                    <div className="col-12 col-md-4 bg-info text-center p-2" style={{border: '#eee 3px solid', borderRadius: '2mm'}}>
                     <div className={styles.promoItem}>
                             <div className={styles.subHeadContainer}>
                             <h3 className={styles.subHead}>Hackathon</h3>
@@ -46,7 +46,7 @@ class Events extends Component {
                                         className="fas fa-chevron-circle-right fa-sm"></i></a></p>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4 bg-primary text-center p-2" style={{border: '#eee 3px solid'}}>
+                    <div className="col-12 col-md-4 bg-primary text-center p-2" style={{border: '#eee 3px solid', borderRadius: '2mm'}}>
                     <div className={styles.promoItem}>
                             <div className={styles.subHeadContainer}>
                             <h3 className={styles.subHead}>Spark</h3>
