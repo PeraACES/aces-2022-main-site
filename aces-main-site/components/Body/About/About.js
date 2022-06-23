@@ -22,12 +22,12 @@ class About extends Component {
                     Computer Engineering.
                 </p>
                 <p className={styles.paraText}>
-                    On par with Department’s vision which is "To be a competitive entity in teaching and 
+                    On par with Department’s vision which is &quot;To be a competitive entity in teaching and 
                     research in Computer Engineering in the country and the region and to produce graduates 
                     with international recognition for their knowledge and skills, capable of taking leadership 
                     positions in the science and technology of design, construction, implementation, and 
                     maintenance of software and hardware components of modern computing systems and computer-controlled 
-                    equipment that constitute the discipline of Computer Engineering", The Association of 
+                    equipment that constitute the discipline of Computer Engineering&quot;, The Association of 
                     Computer Engineering Students (ACES) was formed in August, 2001 as the students’ body of 
                     Computer Engineering undergraduates of the Faculty of Engineering with the aim of 
                     maximising students’ potential by organizing different activities and events that would 

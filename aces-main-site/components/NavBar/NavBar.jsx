@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-
+import Link from 'next/link';
 
 
 
@@ -31,7 +31,7 @@ class NavBar extends Component {
               <img src="./img/logo.png" alt=""/>
             </a>
             <div className="menu-icon" onClick={this.handleMenu}>
-              <label for="" className="menu-btn">
+              <label htmlFor="" className="menu-btn">
 
               <i
                 className={this.state.click ? "fas fa-bars" : "fas fa-times"}
@@ -47,17 +47,18 @@ class NavBar extends Component {
 
 
               <li className="nav-item">
-                <a
-                  href="/"
-                  className={
-                    this.props.page_no == 1
-                      ? "nav-links current-page"
-                      : "nav-links"
-                  }
-                  onClick={() => this.closeMenu(1)}
-                >
-                  HOME
-                </a>
+                <Link  href="/">
+                  <a
+                    className={
+                      this.props.page_no == 1
+                        ? "nav-links current-page"
+                        : "nav-links"
+                    }
+                    onClick={() => this.closeMenu(1)}
+                  >
+                    HOME
+                  </a>
+                </Link>
               </li>
 
 
@@ -93,17 +94,18 @@ class NavBar extends Component {
 
 
               <li className="nav-item">
-                <a
-                  href="/teams"
-                  className={
-                    this.props.page_no == 4
-                      ? "nav-links current-page"
-                      : "nav-links"
-                  }
-                  onClick={() => this.closeMenu(4)}
-                >
-                  TEAMS
-                </a>
+                <Link href="/teams">
+                  <a
+                    className={
+                      this.props.page_no == 4
+                        ? "nav-links current-page"
+                        : "nav-links"
+                    }
+                    onClick={() => this.closeMenu(4)}
+                  >
+                    TEAMS
+                  </a>
+                </Link>
               </li>
 
               
@@ -115,7 +117,7 @@ class NavBar extends Component {
               <li className="nav-item">
                 <a
                   href="https://projects.ce.pdn.ac.lk/"
-		  target="_blank"
+		  target="_blank" rel="noreferrer"
                   className="button"
                   onClick={() => this.closeMenu(4)}
                 >
