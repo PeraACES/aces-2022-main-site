@@ -16,7 +16,7 @@ function Card (props) {
                         
                     </div>
                     
-                <div className={styles.CardImage}><img src={props.image}></img></div>
+                <div className={styles.CardImage}><img src={`${process.env.NEXT_PUBLIC_MAINPATH}${props.image}`}></img></div>
                 <div className={styles.CardDesc}>{props.desc}</div>
                 </div>
             </div>
