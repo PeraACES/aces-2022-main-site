@@ -26,7 +26,7 @@ export default function Home() {
         {/*<div id="preloader">
             { <p>Loading...</p>}
         </div>*/}
-        <NavBar page_no = {1} />
+        <NavBar page_no = {1} path="main"/>
         <div className = "main-container" >
         <video src = {`${process.env.NEXT_PUBLIC_MAINPATH}/video/video.mp4`}
         autoPlay = "true"

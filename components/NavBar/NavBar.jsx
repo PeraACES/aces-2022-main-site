@@ -1,12 +1,6 @@
 import React, { Component } from "react";
 
-import Link from 'next/link';
-
-
-
-
-
-
+import Link from "next/link";
 
 class NavBar extends Component {
   state = {
@@ -18,36 +12,28 @@ class NavBar extends Component {
   };
 
   closeMenu = (page_num) => {
-    this.setState({ click: true});
+    this.setState({ click: true });
   };
 
-
   render() {
+   
     return (
       <>
         <nav className="navbar">
           <div className="navbar-container">
-            <a className="navbar-logo" to="/" onClick={()=>this.closeMenu(1)}>
-              <img src={`/img/logo.png`} alt=""/>
+            <a className="navbar-logo" to="/" onClick={() => this.closeMenu(1)}>
+              <img src={process.env.NEXT_PUBLIC_MAINPATH+`/img/logo.png`} alt="" />
             </a>
             <div className="menu-icon" onClick={this.handleMenu}>
               <label htmlFor="" className="menu-btn">
-
-              <i
-                className={this.state.click ? "fas fa-bars" : "fas fa-times"}
-              >
-              </i>
-
+                <i
+                  className={this.state.click ? "fas fa-bars" : "fas fa-times"}
+                ></i>
               </label>
-              
-
-
             </div>
             <ul className={!this.state.click ? "nav-menu active" : "nav-menu"}>
-
-
               <li className="nav-item">
-                <Link  href="/">
+                <Link href="/">
                   <a
                     className={
                       this.props.page_no == 1
@@ -61,7 +47,6 @@ class NavBar extends Component {
                 </Link>
               </li>
 
-
               <li className="nav-item">
                 <a
                   href=""
@@ -70,12 +55,11 @@ class NavBar extends Component {
                       ? "nav-links current-page"
                       : "nav-links"
                   }
-                 // onClick={() => this.closeMenu(2) }
+                  // onClick={() => this.closeMenu(2) }
                 >
                   LATEST
                 </a>
               </li>
-
 
               <li className="nav-item">
                 <a
@@ -85,13 +69,11 @@ class NavBar extends Component {
                       ? "nav-links current-page"
                       : "nav-links"
                   }
-                 // onClick={() => this.closeMenu(3)}
+                  // onClick={() => this.closeMenu(3)}
                 >
                   BLOG
                 </a>
               </li>
-
-
 
               <li className="nav-item">
                 <Link href="/teams">
@@ -108,39 +90,19 @@ class NavBar extends Component {
                 </Link>
               </li>
 
-              
-
-              
-
-
-
               <li className="nav-item">
                 <a
                   href="https://projects.ce.pdn.ac.lk/"
-		  target="_blank" rel="noreferrer"
+                  target="_blank"
+                  rel="noreferrer"
                   className="button"
                   onClick={() => this.closeMenu(4)}
                 >
                   PROJECTS
                 </a>
               </li>
-            
-              
-
-             
-
-
-
             </ul>
-
-           
-
-           
-          
           </div>
-
-          
-
         </nav>
       </>
     );

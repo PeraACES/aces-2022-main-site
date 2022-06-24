@@ -4,7 +4,7 @@ import styles from '../styles/Teams.module.css';
 //import Scroll from '../components/Body/Scroll'
 import Navbar from "../components/NavBar/NavBar";
 import Footer from "../components/footer/Footer";
-import Head from 'next/head'
+import Head from 'next/head';
 
 class TeamsPage extends Component {
     render() { 
@@ -13,9 +13,10 @@ class TeamsPage extends Component {
              <Head>
                 <title>ACES</title>
                 <meta name="description" content="aces" />
-                <link rel="icon" href={`/img/logo_1.png"`} />
+                <link rel="icon" href={`${process.env.NEXT_PUBLIC_MAINPATH}/img/logo_1.png`} />
+        
             </Head>
-            <Navbar page_no = {4}/>
+            <Navbar page_no = {4} path="teams"/>
 
             <div className={`container ${styles.commitee}`}>
 
@@ -27,7 +28,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Randika.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Randika.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>President<br/>
@@ -37,7 +38,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Isuru.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Isuru.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Advisor/Senior Treasurer<br/>
@@ -47,7 +48,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Thushara.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Thushara.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Vice President<br/>
@@ -58,7 +59,7 @@ class TeamsPage extends Component {
                         
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Imesh.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Imesh.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Secretary<br/>
@@ -68,7 +69,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Ridma.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Ridma.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Assistant Secretary<br/>
@@ -78,7 +79,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Nanduni.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Nanduni.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Editor<br/>
@@ -88,7 +89,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Isara.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Isara.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Junior Editor<br/>
@@ -98,7 +99,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Nadeesha.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Nadeesha.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Junior Treasurer<br/>
@@ -111,7 +112,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Heshan.jpeg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Heshan.jpeg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -121,7 +122,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/comittee/Kavindu.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Kavindu.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -131,7 +132,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Deshan.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Deshan.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -141,7 +142,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/comittee/Pubudu.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Pubudu.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -151,7 +152,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/comittee/Adithya.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Adithya.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -161,7 +162,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/comittee/Ishta.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Ishta.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -171,7 +172,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Roshila.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Roshila.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -181,7 +182,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/comittee/Ruchira.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Ruchira.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>Member<br/>
@@ -203,7 +204,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Aminda_Amarasinghe.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Aminda_Amarasinghe.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -213,7 +214,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Anuruddha_chandrasekara.PNG"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Anuruddha_chandrasekara.PNG"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -223,7 +224,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Chiran_Devinda.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Chiran_Devinda.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -234,7 +235,7 @@ class TeamsPage extends Component {
                         
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Denuwan_Weerarathne.jpeg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Denuwan_Weerarathne.jpeg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -244,7 +245,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Jeewantha_Udeshika.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Jeewantha_Udeshika.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -254,7 +255,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Kavinda_Karunarathna.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Kavinda_Karunarathna.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -264,7 +265,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Lahiru_Pathum.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Lahiru_Pathum.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -274,7 +275,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Lakshitha_srimal.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Lakshitha_srimal.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -284,7 +285,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/web/Tharindu_Dhananjaya.JPG"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/web/Tharindu_Dhananjaya.JPG"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -307,7 +308,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Achintha_Sandakalum.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Achintha_Sandakalum.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -317,7 +318,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Chamudi_Jayasumana .JPG"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Chamudi_Jayasumana .JPG"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -327,7 +328,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Kushan_Manahara.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Kushan_Manahara.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -338,7 +339,7 @@ class TeamsPage extends Component {
                         
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Mahela_Ekanayake.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Mahela_Ekanayake.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -348,7 +349,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Nethmi_Ranasinghe.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Nethmi_Ranasinghe.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -358,7 +359,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Nipun_Dharmarathne.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Nipun_Dharmarathne.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -368,7 +369,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Nirasha_Sewwandi.jpeg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Nirasha_Sewwandi.jpeg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -378,7 +379,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Nishankar_Sathiyamohan.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Nishankar_Sathiyamohan.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -391,7 +392,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
-                                <img src="/img/design/Sashini_Liyanage.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Sashini_Liyanage.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -401,7 +402,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/design/Sathsarani_Aththanayaka.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Sathsarani_Aththanayaka.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -411,7 +412,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/design/Thakshila_Jayathilake.jpg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Thakshila_Jayathilake.jpg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -421,7 +422,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/design/Vithurshini_Subramanieam.jpeg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Vithurshini_Subramanieam.jpeg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -431,7 +432,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/design/Ishara_Nawarathna.png"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Ishara_Nawarathna.png"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
@@ -441,7 +442,7 @@ class TeamsPage extends Component {
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>    
-                                <img src="/img/design/Sandun_Kodagoda.jpeg"></img>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/design/Sandun_Kodagoda.jpeg"}></img>
                             </div>
                             <div className={styles.card_container}>
                                 <small>
