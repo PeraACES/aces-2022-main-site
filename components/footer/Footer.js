@@ -222,7 +222,7 @@ class Footer extends Component {
         <div className={`${styles["footer-logo-sec"]} row`}>
           <div className="col-12 mb-0">
             <Image
-              src="/img/logo.png"
+              src={`${process.env.NEXT_PUBLIC_MAINPATH}/img/logo.png`}
               width={150}
               height={60}
             />
