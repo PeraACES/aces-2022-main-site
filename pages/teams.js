@@ -13,7 +13,7 @@ class TeamsPage extends Component {
              <Head>
                 <title>ACES</title>
                 <meta name="description" content="aces" />
-                <link rel="icon" href={`${process.env.NEXT_PUBLIC_MAINPATH}/img/logo_1.png"`} />
+                <link rel="icon" href={`/img/logo_1.png"`} />
             </Head>
             <Navbar page_no = {4}/>
 
