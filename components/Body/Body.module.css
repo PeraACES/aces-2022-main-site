@@ -44,7 +44,7 @@
     position: relative;
     overflow: hidden;
     min-height: 480px;
-    background-image: url('../../img/left-design.png');
+    background-image: url('../../public/img/left-design.png');
     background-repeat: no-repeat;
     border-radius: 2mm;
 }
@@ -76,7 +76,7 @@
 }
 .CardDesc{
     position: relative;
-    background: #ccc url('../../img/left-design.png') no-repeat ;
+    background: #ccc url('../../public/img/left-design.png') no-repeat ;
     height: 150px;
     color: #000;
     padding: 20px;
