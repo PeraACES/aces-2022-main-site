@@ -28,7 +28,7 @@ class NavBar extends Component {
         <nav className="navbar">
           <div className="navbar-container">
             <a className="navbar-logo" to="/" onClick={()=>this.closeMenu(1)}>
-              <img src="./img/logo.png" alt=""/>
+              <img src={`${process.env.NEXT_PUBLIC_MAINPATH}/img/logo.png`} alt=""/>
             </a>
             <div className="menu-icon" onClick={this.handleMenu}>
               <label htmlFor="" className="menu-btn">
