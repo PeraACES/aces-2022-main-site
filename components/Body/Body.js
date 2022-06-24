@@ -9,7 +9,9 @@ class Body extends Component {
         return (
             <div className={styles.container}>
                 <About />
+                <div style={{height:"11mm"}}></div>
                 <Events />
+                <div style={{height:"17mm"}}></div>
                 <NewsLetter />
             </div>
         )
