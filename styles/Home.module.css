@@ -3,3 +3,13 @@
     margin-bottom: 0px;
     padding:0px;
 }
+
+@media screen and (max-width: 570px) {
+    .heading{
+        font-size: 30px !important;
+        padding: 2mm;
+    }
+    .sub {
+        font-size: 15px !important;
+    }
+}

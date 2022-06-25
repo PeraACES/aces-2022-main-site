@@ -32,8 +32,8 @@ export default function Home() {
         autoPlay = "true"
         loop = "true"
         muted = "true" />
-        <h2 className = "main-heading" > Association of Computer Engineering Students </h2>  
-        <p className = "main-subheading" > -University of Peradeniya - </p>  
+        <h2 className = {"main-heading"+` ${styles.heading}`} > Association of Computer Engineering Students </h2>  
+        <p className = {"main-subheading"+ ` ${styles.sub}`} > -University of Peradeniya - </p>  
         </div >  
         <Body />
       	{/*<Scroll />*/}

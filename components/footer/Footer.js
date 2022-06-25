@@ -129,21 +129,21 @@ class Footer extends Component {
           <div className="col-12 col-md-6 col-lg-3">
             <div variant="flush" className={`${styles["footer-links"]} container`}>
               <div className="row">
-              <h4>Useful Links</h4>
+              <h4 style={{width:"100%"}}>Useful Links</h4>
               </div>
               <div className="row">
                 <Link href="#">
-                  <a>Gallery</a>
+                  <a style={{width:"100%"}}>Gallery</a>
                 </Link>
               </div>
               <div className="row">
                 <Link href="mailto:aces@ce.pdn.ac.lk" target="_blank">
-                  <a>Contact Us</a>
+                  <a style={{width:"100%"}}>Contact Us</a>
                 </Link>
               </div>
               <div className="row">
                 <Link href="https://hackersuop.github.io/" target="_blank">
-                  <a>Hacker&apos;s club</a>
+                  <a style={{width:"100%"}}>Hacker&apos;s club</a>
                 </Link>
               </div>
             </div>
@@ -151,21 +151,21 @@ class Footer extends Component {
           <div className="col-12 col-md-6 col-lg-2">
             <div variant="flush" className={`${styles["footer-links"]} container`}>
               <div className="row">
-              <h4>Events</h4>
+              <h4 style={{width:"100%"}}>Events</h4>
               </div>
               <div className="row">
-                <Link href="#">
-                  <a>Coders</a>
+                <Link href="https://aces.ce.pdn.ac.lk/aces-coders/">
+                  <a style={{width:"100%"}}>Coders</a>
                 </Link>
               </div>
               <div className="row">
-                <Link href="#">
-                  <a>Hackathon</a>
+                <Link href="https://aces.ce.pdn.ac.lk/aces-hackathon/">
+                  <a style={{width:"100%"}}>Hackathon</a>
                 </Link>
               </div>
               <div className="row">
-                <Link href="#">
-                  <a>Spark</a>
+                <Link href="https://aces.ce.pdn.ac.lk/aces-spark/">
+                  <a style={{width:"100%"}}>Spark</a>
                 </Link>
               </div>
             </div>
@@ -173,16 +173,16 @@ class Footer extends Component {
           <div className="col-12 col-md-12 col-lg-4">
             <div variant="flush" className={`${styles["footer-links"]} container`}>
               <div className="row">
-              <h4>Sessions</h4>
+              <h4 style={{width:"100%"}}>Sessions</h4>
               </div>
               <div className="row">
-                <Link href="#">
-                  <a>Developer Series Sessions</a>
+                <Link href="https://hackersuop.github.io/">
+                  <a style={{width:"100%"}}>Developer Series Sessions</a>
                 </Link>
               </div>
               <div className="row">
-                <Link href="#">
-                  <a>Competitive Programming Sessions</a>
+                <Link href="https://hackersuop.github.io/">
+                  <a style={{width:"100%"}}>Competitive Programming Sessions</a>
                 </Link>
               </div>
             </div>
@@ -190,7 +190,7 @@ class Footer extends Component {
           <div className="col-12 col-md-12 col-lg-3 text-center">
           <div className={`${styles["footer-follow"]} container`}>
               <div className="row d-flex justify-center text-center">
-                <h4 className="d-flex text-center w-100">Follow Us On</h4>
+                <h4 style={{padding:"0", width:"100%", textAlign:"center"}}>Follow Us On</h4>
               </div>
               <div className="row">
                 <div className="col-4">
