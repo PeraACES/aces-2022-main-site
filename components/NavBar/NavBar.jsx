@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Link from "next/link";
+import styles from './nav.module.css';
 
 class NavBar extends Component {
   state = {
@@ -31,7 +32,7 @@ class NavBar extends Component {
                 ></i>
               </label>
             </div>
-            <ul className={!this.state.click ? "nav-menu active" : "nav-menu"}>
+            <ul className={!this.state.click ? `nav-menu active ${styles.removePadding}` : "nav-menu"}>
               <li className="nav-item">
                 <Link href="/">
                   <a
@@ -46,7 +47,7 @@ class NavBar extends Component {
                   </a>
                 </Link>
               </li>
-
+{/*
               <li className="nav-item">
                 <a
                   href=""
@@ -74,7 +75,7 @@ class NavBar extends Component {
                   BLOG
                 </a>
               </li>
-
+*/}
               <li className="nav-item">
                 <Link href="/teams">
                   <a

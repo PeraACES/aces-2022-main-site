@@ -6,10 +6,10 @@
 
 @media screen and (max-width: 570px) {
     .heading{
-        font-size: 30px !important;
+        font-size: 35px !important;
         padding: 2mm;
     }
     .sub {
-        font-size: 15px !important;
+        font-size: 20px !important;
     }
 }

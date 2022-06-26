@@ -54,7 +54,11 @@
 }
 .paraText{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+}
+@media screen and (max-width: 550px) {
+    .paraText{
+        text-align: center;
+    }
 }
 .AboutBg{
     margin-left: 70px;

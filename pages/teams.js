@@ -24,7 +24,7 @@ class TeamsPage extends Component {
                 <h3 className="text-primary text-center">EXECUTIVE COMMITTE 2021/2022</h3>
                 <hr className="bg-primary"></hr>
 
-                <div className="row" style={{marginLeft:'1%'}}>
+                <div className="row" style={{justifyContent:"center"}}>
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
@@ -200,7 +200,7 @@ class TeamsPage extends Component {
                 <h3 className="text-primary text-center">WEB TEAM</h3>
                 <hr className="bg-primary"></hr>
 
-                <div className="row" style={{marginLeft:'1%'}}>
+                <div className="row" style={{justifyContent:"center"}}>
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
@@ -304,7 +304,7 @@ class TeamsPage extends Component {
                 <h3 className="text-primary text-center">DESIGN TEAM</h3>
                 <hr className="bg-primary"></hr>
 
-                <div className="row" style={{marginLeft:'1%'}}>
+                <div className="row" style={{justifyContent:"center"}}>
 
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
