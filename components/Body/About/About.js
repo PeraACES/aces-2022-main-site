@@ -5,7 +5,13 @@ class About extends Component {
     render() {
         return (
             <div>
-               <h4 className={styles.head}>ABOUT</h4>
+                <div style={{color: "#000030", margin:"0cm 4vw"}}>
+                    <hr style={{backgroundColor:"#000030", height: "1px"}}></hr>
+                    <h3 className="text-center">ABOUT</h3>
+                    <hr style={{backgroundColor:"#000030", height: "2.5px"}}></hr>
+                </div>
+                <div style={{height:"6.5mm"}}></div>
+               {/*<h4 className={styles.head}>ABOUT</h4>*/}
                <div className={styles.AboutBg}>
                 <p className={styles.paraText}>
                     The Department of Computer Engineering was first established in the year 1985 

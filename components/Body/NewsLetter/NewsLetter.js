@@ -6,7 +6,13 @@ class NewsLetter extends Component {
     render() {
         return (
             <div>
-                <h4 className={styles.head}>NEWS LETTERS</h4>
+                <div style={{color: "#000030", margin:"0cm 4vw"}}>
+                    <hr style={{backgroundColor:"#000030", height: "1px"}}></hr>
+                    <h3 className="text-center">NEWS LETTERS</h3>
+                    <hr style={{backgroundColor:"#000030", height: "2.5px"}}></hr>
+                </div>
+                <div style={{height:"4mm"}}></div>
+                {/*<h4 className={styles.head}>NEWS LETTERS</h4>*/}
                 <div className="row p-1 mx-1 mx-md-5">
                     <div className='col-12 col-md-4'>
                         {/* <Card link="#" image="img/bg_1.jpg" desc="News Letter 1" /> */}
