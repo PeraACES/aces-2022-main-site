@@ -26,6 +26,17 @@ class TeamsPage extends Component {
 
                 <div className="row" style={{justifyContent:"center"}}>
 
+                <div className={`${styles.card}`}>
+
+                        <div className={styles.card_img}>
+                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Isuru.jpg"}></img>
+                            </div>
+                            <div className={styles.card_container}>
+                                <small>Advisor/Senior Treasurer<br/>
+                                <b>Dr. Isuru Nawinne</b></small>
+                                </div>
+                        </div>
+
                         <div className={`${styles.card}`}>
                             <div className={styles.card_img}>
                                 <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Randika.jpg"}></img>
@@ -34,16 +45,6 @@ class TeamsPage extends Component {
                                 <small>President<br/>
                                 <b>Randika Viraj</b></small>
                             </div>
-                        </div>
-
-                        <div className={`${styles.card}`}>
-                            <div className={styles.card_img}>
-                                <img src={process.env.NEXT_PUBLIC_MAINPATH+"/img/comittee/Isuru.jpg"}></img>
-                            </div>
-                            <div className={styles.card_container}>
-                                <small>Advisor/Senior Treasurer<br/>
-                                <b>Dr. Isuru Nawinne</b></small>
-                                </div>
                         </div>
 
                         <div className={`${styles.card}`}>
